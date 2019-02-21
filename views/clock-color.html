@@ -70,7 +70,7 @@
 		#staleTime {
 			flex-grow: 1;
 			font-size: 6vmin;
-			display: none;
+			display: block; //defaut=none
 		}
 	</style>
 </head>
@@ -156,7 +156,7 @@
 			}
 			
 			// Time before data considered stale.
-			var staleMinutes = 1;	//default = 13									
+			var staleMinutes = 13;									
 			var threshold = 1000 * 60 * staleMinutes;			
 			
 			// Restyle body bg, and make the "x minutes ago" visible too.
