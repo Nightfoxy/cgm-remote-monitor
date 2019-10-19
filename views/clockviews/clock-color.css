@@ -55,12 +55,13 @@ img#arrow {
 #staleTime {
   flex-grow: 1;
   font-size: 6vmin;
-  display: none;
+  display: block;
 }
 
 #clock {
   display: none;
 }
+
 
 .close {
   color: white;
